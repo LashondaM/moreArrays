@@ -1,7 +1,7 @@
 var oreo = ['Billy', 2, 'Mandy', 2, 'Mac', 3, 'Cheese', 4, 'Liza', 'Koshy'];
     console.log(oreo);
 
-    //
+    // pushing array with two arguments
 
     function thing(boy, girl) {
   
@@ -15,3 +15,7 @@ return boy
 
     //
 
+function newOreo(girl007) {
+    return girl007.slice(8,10);
+}
+console.log(newOreo(oreo))
